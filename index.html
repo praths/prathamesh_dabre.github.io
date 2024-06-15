@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <!-- <header>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -17,11 +17,48 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
 
+    <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <br>
+      </div>
+
+      <!-- Page content -->
+<!-- <div class="main"> -->
     <section id="home">
         <h1>Welcome to My Portfolio</h1>
-        <p>I’m Prathamesh Dabre, an iOS Developer.</p>
+        <p>Hi, I’m Prathamesh Dabre, an iOS Developer specializing in creating innovative and user-friendly applications.
+            <br><br>
+            Qualified Software Engineer with above 10 years of experience in Software Development. 
+            <br>
+            developed softwares natively for various Apple Platforms ( iPhone, iPad, Apple watch ) using Xcode, Objective-C, Swift, Cocoa Touch, Sqlite and Core Data. 
+
+        </p>
+        <ul>
+            <li>iPad and iPhone applications</li>
+            <li>Apple Watch applications</li>
+            <li>Apple Today Widget Extension applications</li>
+            <li>Integrating Social Media APIs like Facebook, Twitter, LinkedIn, Google+ APIs in iOS applications</li>
+            <li>Android applications</li>
+            <li>Xamarin applications</li>
+            <li>Flutter applications</li>
+            <li>Microsoft SQL Server 2005 & 2008 R2 , SQL Server Compact 3.5 & 4.0, SQLite, MS Access</li>
+            <li>Github & SVN to manage the different branches of code</li>
+            <li>Dot Net technology</li>
+        </ul>
+        <div class="social">
+            <a href="mailto:praths11@gmail.com">praths11@gmail.com</a>
+            <a href="mailto:praths11@outlook.com">praths11@outlook.com</a>
+            <a href="https://www.linkedin.com/in/prathamesh-dabre21091987" target="_blank">LinkedIn</a>
+            <a href="https://www.github.com/praths" target="_blank">GitHub</a>
+            <br>
+        </div>
     </section>
 
     <section id="about">
@@ -62,17 +99,23 @@
         <form action="mailto:praths11@outlook.com" method="POST" enctype="text/plain">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
+            <br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
+            <br>
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
+            <br>
             <button type="submit">Send</button>
         </form>
     </section>
+  <!-- </div> -->
 
-    <footer>
+   
+
+    <!-- <footer>
         <p>&copy; 2024 Prathamesh Dabre. All rights reserved.</p>
-    </footer>
+    </footer> -->
 
     <script src="script.js"></script>
 </body>
