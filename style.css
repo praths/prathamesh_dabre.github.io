@@ -38,6 +38,7 @@ h1, h2 {
 #home {
     /* background: url('images/banner.jpg') no-repeat center center/cover; */
     color: black;
+    background-color: #fff;
     height: 100vh;
     display: flex;
     flex-direction: column;
